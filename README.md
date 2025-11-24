@@ -19,17 +19,17 @@ Based on the analysis of historical trade data and sentiment scores:
 ### 1. Bitcoin vs. Altcoins: The Sentiment Disconnect
 We separated trades into BTC-only and Altcoins. The regression below shows a clear negative slope for BTC (Contrarian: Profits rise as Sentiment falls), while Altcoins remain flat (Uncorrelated).
 
-![BTC vs Altcoins](images/btc_vs_alt_corr.png)
+<img width="1035" height="468" alt="image" src="https://github.com/user-attachments/assets/89f2ef4c-3e99-4fb8-b67a-dd1d7731fbc4" />
 
 ### 2. Fear vs. Greed Performance
 Aggregating PnL during "Fear" days (< 45 score) vs "Greed" days (> 55 score). The disparity suggests the strategy thrives on volatility and panic dumps.
 
-![Fear vs Greed Bar](images/fear_vs_greed_bar.png)
+<img width="549" height="449" alt="image" src="https://github.com/user-attachments/assets/d1631ae1-2975-4e1d-a98d-0b7f748f6d22" />
 
 ### 3. Distribution of Returns by Sentiment Zone
 Using a logarithmic scale boxplot to visualize the spread of returns. Note the massive outliers in "Extreme Greed" vs the tight consistency in "Fear".
 
-![Sentiment Distribution](images/sentiment_buckets.png)
+<img width="861" height="468" alt="image" src="https://github.com/user-attachments/assets/07153027-abdd-4cae-9808-79e87c5b43c8" />
 
 ---
 
